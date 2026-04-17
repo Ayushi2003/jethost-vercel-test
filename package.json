@@ -2,7 +2,7 @@
   "name": "jethost-test-ready",
   "version": "1.0.0",
   "description": "JetHost-ready React + Node.js test app",
-  "main": "server.js",
+  "main": "api/index.js",
   "scripts": {
     "start": "node server.js"
   },
