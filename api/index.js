@@ -5,7 +5,8 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || '0.0.0.0';
-const publicDir = path.join(__dirname, 'public');
+// const publicDir = path.join(__dirname, 'public');
+const publicDir = path.join(__dirname, '../public');
 const indexFile = path.join(publicDir, 'index.html');
 
 app.disable('x-powered-by');
