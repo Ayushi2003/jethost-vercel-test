@@ -1,0 +1,16 @@
+{
+  "name": "jethost-test-ready",
+  "version": "1.0.0",
+  "description": "JetHost-ready React + Node.js test app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
